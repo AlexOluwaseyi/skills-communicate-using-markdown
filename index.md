@@ -9,3 +9,34 @@ The initial description of Markdown[10] contained ambiguities and raised unanswe
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ![Place Bear](https://placebear.com/200/300)
 ![Place Cat](https://placekitten.com/600/300)
+
+```
+root:/# cd ~/home
+bash: cd: /root/home: No such file or directory
+```
+
+```js
+const myVar1 = 'Hello ';
+const myVar2 = 'World!'
+const conc = myVar1 + myVar2;
+console.log(conc);
+```
+
+```py
+str1 = "Hello"
+str2 = "World!"
+conc = str1 + " " + str2
+print(conc)
+```
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+  char myVar1[] = "Hello";
+  char myVar2[] = "World";
+  printf("%s %s!", myVar1, myVar2);
+  return (0);
+}
+```
