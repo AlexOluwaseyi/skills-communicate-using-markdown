@@ -6,10 +6,12 @@ Markdown[9] is a lightweight markup language for creating formatted text using a
 
 The initial description of Markdown[10] contained ambiguities and raised unanswered questions, causing implementations to both intentionally and accidentally diverge from the original version. This was addressed in 2014 when long-standing Markdown contributors released CommonMark, an unambiguous specification and test suite for Markdown.[11]
 
+## Adding Images
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ![Place Bear](https://placebear.com/200/300)
 ![Place Cat](https://placekitten.com/600/300)
 
+## Adding Code Snippets
 ```
 root:/# cd ~/home
 bash: cd: /root/home: No such file or directory
@@ -40,3 +42,9 @@ int main(void)
   return (0);
 }
 ```
+
+## Adding Lists
+- [X] Turn on GitHub Pages
+- [x] Outline my portfolio
+- [ ] Introduce myself to the world
+
